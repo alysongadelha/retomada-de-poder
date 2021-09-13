@@ -1,0 +1,32 @@
+[
+  {
+    "player": "Alyson",
+    "clan": "Nosferatu",
+    "character": "Ero Prefus",
+    "img": "https://i.ibb.co/SfpY7Bk/eros.png"
+  },
+  {
+    "player": "Bruno",
+    "clan": "... de Set",
+    "character": "Amin Alkhaled",
+    "img": "https://i.ibb.co/q95g50Y/amin.png"
+  },
+  {
+    "player": "Felipe",
+    "clan": "Ravnos",
+    "character": "Ryu Astor",
+    "img": "https://i.ibb.co/0M722G9/ryu.png"
+  },
+  {
+    "player": "Victor",
+    "clan": "Kiasyd",
+    "character": "Noah Brown",
+    "img": "https://i.ibb.co/x1nXktr/noah.png"
+  },
+  {
+    "player": "Flávio",
+    "clan": "Tremere",
+    "character": "Robert 'Bobb' Gilmore",
+    "img": "https://i.ibb.co/FVZQZWM/robert.png"
+  }
+]

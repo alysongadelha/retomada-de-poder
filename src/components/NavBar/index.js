@@ -1,39 +1,40 @@
-import React from 'react';
+import React from "react";
 import {
   Nav,
   NavLink,
   Bars,
   NavMenu,
   NavBtn,
-  NavBtnLink
-} from './NavbarElements';
+  NavBtnLink,
+} from "./NavbarElements";
+import logo from '../../assets/img/wod-logo-7fbf82f8.svg';
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
-        <img src={require('../../assets/img/logo/logo.svg')} alt="yes"/>
+        <NavLink to="/">
+          <img src={logo} alt="Vampire" width={'120px'} />
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/personagens' activeStyle>
+          <NavLink to="/personagens" >
             Personagens
           </NavLink>
-          <NavLink to='/npcs' activeStyle>
+          <NavLink to="/npcs" >
             Npc's
           </NavLink>
-          <NavLink to='/cidade' activeStyle>
+          <NavLink to="/cidade" >
             Cidade
           </NavLink>
-          <NavLink to='/a-mesa' activeStyle>
+          <NavLink to="/a-mesa" >
             A Mesa
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/doacao'>Doe</NavBtnLink>
+          <NavBtnLink to="/doacao">Doe</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

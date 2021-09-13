@@ -7,9 +7,81 @@ h1 {
 
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
+body {
+  background-color: #424242 !important;
+}
+
 * {
   font-family: 'Sora', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+.boxes {
+  margin: 50px;
+  width: 6000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  margin: 16px;
+  height: 250px;
+  width: 150px;
+  border-radius: 16px;
+  border: 1px solid;
+  font-size: 12px;
+  color: #fff;
+}
+
+.center {
+  position: relative;
+  left: 55%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.centeri {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-corner {
+  position: absolute;
+  left: 80%;
+  top: 80%;
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+
+  border: 2px solid #fff;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #f6f6f6;
+  color: #424242;
+}
+
+button:active {
+  background-color: #424242;
+}
+
+.toggle {
+  color: #ffffff;
+  margin: 0 16px;
+  border-color: #ffffff;
+  width: auto;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Characterbox from '../../CharacterBox';
 
 const Personagens = () => {
   return (
@@ -10,7 +11,8 @@ const Personagens = () => {
         height: '90vh'
       }}
     >
-      <h1>Personagens</h1>
+      <h1 style={{position: 'absolute', top: '150px'}}>Personagens</h1>
+      <Characterbox />
     </div>
   );
 };

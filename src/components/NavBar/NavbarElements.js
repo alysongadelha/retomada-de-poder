@@ -1,6 +1,6 @@
-import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { FaTheaterMasks } from "react-icons/fa";
+import { NavLink as Link } from "react-router-dom";
+import styled from "styled-components";
 
 export const Nav = styled.nav`
   background: #000;
@@ -34,7 +34,7 @@ export const NavLink = styled(Link)`
   }
 `;
 
-export const Bars = styled(FaBars)`
+export const Bars = styled(FaTheaterMasks)`
   display: none;
   color: #fff;
 
@@ -82,7 +82,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 10px 22px;
   color: #c4171d;
   outline: none;
